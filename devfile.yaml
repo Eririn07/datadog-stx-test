@@ -20,7 +20,7 @@ parent:
 components:
     - name: image-build
       image:
-          imageName: reza-springboot-image:latest
+          imageName: reza-spring-image:latest
           dockerfile:
               uri: docker/Dockerfile
               buildContext: .
